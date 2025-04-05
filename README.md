@@ -34,5 +34,4 @@ All of these improvements work together to create a more intuitive, interactive,
 
 
 *OUTPUT*:  
-
-    <img width="1470" alt="Image" src="https://github.com/user-attachments/assets/616f218b-e228-4e12-b28c-9a44caf68c91" />
+                <img width="1470" alt="Image" src="https://github.com/user-attachments/assets/4c005712-f12c-4889-9bb0-810a944a536a" />
