@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Moodle UI Redesign</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="custom-cursor" id="cursor"></div>
+
+  <header>
+    <h1>Moodle+</h1>
+    <nav>
+      <ul>
+        <li><button class="nav-btn ripple">Dashboard</button></li>
+        <li><button class="nav-btn ripple">My Courses</button></li>
+        <li><button class="nav-btn ripple">Progress</button></li>
+        <li><button class="nav-btn ripple">Calendar</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Your Learning Hub</h2>
+    <p>Track your progress, upcoming tasks, and calendar events with our new sleek UI.</p>
+  </section>
+
+  <section class="cards">
+    <div class="card ripple animated-card">
+      <h3><span class="icon">📘</span> My Courses</h3>
+      <ul>
+        <li>Web Development</li>
+        <li>Digital Logic</li>
+        <li>VLSI Design</li>
+      </ul>
+    </div>
+    <div class="card ripple animated-card">
+      <h3><span class="icon">📈</span> Progress</h3>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 75%;">75%</div>
+      </div>
+      <button class="nav-btn ripple">View Progress</button>
+    </div>
+    <div class="card ripple animated-card">
+      <h3><span class="icon">📅</span> Calendar</h3>
+      <input type="date" class="calendar-input ripple" onclick="this.showPicker()" />
+      <button class="nav-btn ripple">View Calendar</button>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Moodle+ Redesign by Bharathuuuu
+  </footer>
+</body>
+</html>
